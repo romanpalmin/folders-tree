@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Dir 1",
+    "isFile": false,
+    "childs": [
+      {
+        "id": 2,
+        "name": "Dir 1-1",
+        "isFile": false,
+        "childs": [
+          {
+            "id": 3,
+            "name": "File 1-1-1",
+            "isFile": true,
+            "childs": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "File 1-2",
+        "isFile": true,
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dir 2",
+    "isFile": false,
+    "childs": [
+      {
+        "id": 6,
+        "name": "Dir 2-1",
+        "isFile": false,
+        "childs": []
+      },
+      {
+        "id": 7,
+        "name": "File 2-2",
+        "isFile": true,
+        "childs": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "File 2",
+    "isFile": true,
+    "childs": []
+  }
+]
